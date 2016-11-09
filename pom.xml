@@ -9,14 +9,15 @@
       <version>7</version>
     </parent>
 
-    <groupId>com.ajjpj.a-mapper</groupId>
-    <artifactId>a-mapper</artifactId>
+    <groupId>com.github.dritonshoshi.n-mapper</groupId>
+    <artifactId>n-mapper</artifactId>
     <version>0.9-pre18-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}-${project.version}</name>
+    <url>https://github.com/dritonshoshi/n-mapper</url>
 
-    <description>a-mapper is a an extremely flexible and highly configurable library for mapping and diffing object graphs and other data structures into each other</description>
+    <description>n.mapper is a fork of the great a-mapper -> a-mapper is a an extremely flexible and highly configurable library for mapping and diffing object graphs and other data structures into each other</description>
 
     <licenses>
         <license>
@@ -26,15 +27,20 @@
         </license>
     </licenses>
     <scm>
-      <connection>scm:git:git@github.com:arnohaase/a-mapper.git</connection>
-      <developerConnection>scm:git:git@github.com:arnohaase/a-mapper.git</developerConnection>
-      <url>git@github.com:arnohaase/a-mapper.git</url>
+        <connection>scm:git:git@github.com:dritonshoshi/n-mapper.git</connection>
+        <developerConnection>scm:git:git@github.com:dritonshoshi/n-mapper.git</developerConnection>
+        <url>git@github.com:dritonshoshi/n-mapper.git</url>
     </scm>
     <developers>
         <developer>
             <id>arnohaase</id>
             <name>Arno Haase</name>
             <email>github@haase-consulting.com</email>
+        </developer>
+        <developer>
+            <id>dritonshoshi</id>
+            <name>Driton Shoshi</name>
+            <email>dritonshoshi@gmail.com</email>
         </developer>
     </developers>
 
