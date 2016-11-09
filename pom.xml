@@ -11,7 +11,7 @@
 
     <groupId>com.github.dritonshoshi.n-mapper</groupId>
     <artifactId>n-mapper</artifactId>
-    <version>0.9-pre18-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}-${project.version}</name>
