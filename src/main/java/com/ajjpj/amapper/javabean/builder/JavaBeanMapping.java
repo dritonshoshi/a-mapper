@@ -317,11 +317,34 @@ public class JavaBeanMapping<S,T, H extends JavaBeanMappingHelper> { //TODO flag
     }
 
     public JavaBeanMapping<S,T,H> addForwardSpecialMapping(APartialBeanMapping<S,T,?> mapping) {
+
+        Iterator<APartialBeanMapping<S, T, ?>> iterator = forwardProps.iterator();
+
+        while (iterator.hasNext()) {
+            APartialBeanMapping<S, T, ?> partialBeanMapping = iterator.next();
+
+            if (partialBeanMapping.getSourceName().equals(mapping.getSourceName()) && partialBeanMapping.getTargetName().equals(mapping.getTargetName())) {
+                iterator.remove();
+            }
+        }
+
         forwardProps.add(mapping);
+
         return this;
     }
 
     public JavaBeanMapping<S,T,H> addBackwardSpecialMapping(APartialBeanMapping<T,S,?> mapping) {
+
+        Iterator<APartialBeanMapping<T, S, ?>> iterator = backwardProps.iterator();
+
+        while (iterator.hasNext()) {
+            APartialBeanMapping<T, S, ?> partialBeanMapping = iterator.next();
+
+            if (partialBeanMapping.getSourceName().equals(mapping.getSourceName()) && partialBeanMapping.getTargetName().equals(mapping.getTargetName())) {
+                iterator.remove();
+            }
+        }
+
         backwardProps.add(mapping);
         return this;
     }
