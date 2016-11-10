@@ -46,6 +46,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.maven-compiler-plugin>3.5.1</version.maven-compiler-plugin>
+        <version.maven-source-plugin>2.2.1</version.maven-source-plugin>
+        <version.maven-javadoc-plugin>2.9.1</version.maven-javadoc-plugin>
+        <version.maven-gpg-plugin>1.5</version.maven-gpg-plugin>
+        <version.maven-release-plugin>2.5</version.maven-release-plugin>
     </properties>
 
     <dependencies>
@@ -87,14 +92,6 @@
         </dependency>
     </dependencies>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.maven-compiler-plugin>3.5.1</version.maven-compiler-plugin>
-        <version.maven-source-plugin>2.2.1</version.maven-source-plugin>
-        <version.maven-javadoc-plugin>2.9.1</version.maven-javadoc-plugin>
-        <version.maven-gpg-plugin>1.5</version.maven-gpg-plugin>
-        <version.maven-release-plugin>2.5</version.maven-release-plugin>
-    </properties>
     <build>
         <plugins>
             <plugin>
