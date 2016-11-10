@@ -11,7 +11,7 @@
 
     <groupId>com.github.dritonshoshi.n-mapper</groupId>
     <artifactId>n-mapper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}-${project.version}</name>
@@ -63,7 +63,7 @@
         <dependency>
             <groupId>ognl</groupId>
             <artifactId>ognl</artifactId>
-            <version>3.0.6</version>
+            <version>3.0.8</version>
             <optional>true</optional>
         </dependency>
         <dependency>
