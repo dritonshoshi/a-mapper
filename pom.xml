@@ -9,7 +9,7 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.github.dritonshoshi.n-mapper</groupId>
+    <groupId>com.github.dritonshoshi</groupId>
     <artifactId>n-mapper</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
